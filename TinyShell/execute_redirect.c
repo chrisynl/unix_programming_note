@@ -16,7 +16,7 @@ int parse_redirect_out(char *s);
 
 /**
  * in为1, 表示需要处理输入重定向
- * out为1, 表示需要处理输入重定向
+ * out为1, 表示需要处理输出重定向
  */ 
 void execute_redirect(char *s, int in, int out) {
     char **chargv;
